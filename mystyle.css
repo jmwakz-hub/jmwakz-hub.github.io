@@ -1,0 +1,746 @@
+/* Universal */
+html {
+    font-family: 'Lato', sans-serif;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Navigation */
+nav {
+    width: 100%;
+  
+
+}
+.navigation {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 5px 0;
+}
+.me {
+    display: none;
+}
+.navigation li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    transition: color 1s;
+
+}
+.navigation li a:hover {
+    color: #5E9A8C;
+    cursor: pointer;
+}
+.navigation li a:active {
+    color: #5E9A8C;
+
+}
+
+/* Header */
+header {
+    margin-top: 10px;
+    padding: 5px;
+}
+.hero {
+    display: flex;
+
+    
+}
+.hero-holder {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.name h1 {
+    margin: 0;
+    font-size: 50px;
+  
+
+
+}
+
+.description  {
+    margin-left: 5px;;
+
+
+}
+.description p {
+    color: black;
+}
+
+.hero-cover {
+    width: 100%;
+    height: 100%;
+  
+   
+   
+
+}
+.b-portfolio {
+    margin-left: -70px;
+ 
+}
+.b-portfolio a {
+    background-color: #5E9A8C;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    display: inline-block;
+       
+
+
+   
+    
+   
+}
+.b-portfolio a:hover {
+    background-color: black;
+}
+
+
+/* Section Services */
+.services {
+   text-align: center;
+    
+}
+.row {
+    display: column;
+}
+.services-heading {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 35px;
+
+}
+.card {
+    display: flex;
+    padding: 10px 20px;
+    border: 3px solid white;
+    height: 100%;
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    transition: all 2s;
+
+
+    
+    
+
+}
+.left {
+    background-color: #5E9A8C;
+    border-radius: 50%;
+    padding: 12px;
+    position: absolute;
+   
+   
+
+}
+.left i {
+    color:white;
+    position: relative;
+    font-size: 20px;
+    
+
+    
+}
+.right h2 {
+    margin: 0;
+    
+}
+.right {
+  padding: 5px 0;   
+  width: 80%; 
+  margin-right: 0;
+  margin-left: 15px;
+
+}
+.card:hover {
+    border: 3px solid whitesmoke;
+    box-shadow: 10px 10px 10px  rgb(124, 122, 119);
+   
+
+}
+
+
+/* About Section */
+.about {
+    width: 100%;;
+}
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+    
+}
+.about-heading {
+    
+    margin-left: 5px;
+}
+.about-heading h1 {
+    font-size: 40px;
+}
+.about-img {
+    width: 100%;
+    text-align: center;
+
+}
+.pic-me {
+    width: 100%;
+    height: 100%;
+
+    
+    
+    
+   
+}
+
+.about-heading h1::after {
+    content:"";
+    display: block;
+    height: 0.5em;
+    margin-top: 5px;
+   
+    width: 50px;
+    margin-right: -100%;
+    margin-left: 5px;
+    border-top: 2px solid black;
+  
+
+}
+.about-paragraph {
+    margin-left: 10px;
+    margin-top: 0;
+}
+.about-btn {
+    border-radius: 30px;
+    background-color: #5E9A8C;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.about-btn:hover {
+    background-color: black;
+}
+
+/* Porfolio */
+.my-portfolio {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.portfolio-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 3px solid whitesmoke;
+    transition: all 5s;
+
+}
+.portfolio-image:hover {
+    transform: scale(0.8);
+}
+
+/* Contact */
+.contact-form {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
+    
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+
+}
+.contact input, textarea {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.send-message {
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    background-color: #5E9A8C;
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+.send-message:hover {
+    background-color: black;
+
+}
+
+/* footer */
+footer {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.footer-col h3,  .footer-col p{
+    text-align: center;
+
+}
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-col a {
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+}
+.footer-col a:hover {
+    color: #5E9A8C;
+
+}
+footer p {
+    text-align: center;
+    color: grey;
+}
+
+
+
+@media (min-width: 640px) {
+    /* Navigation */
+    .navigation {
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 1.0);
+        top: 0;
+        margin: 0;
+        width: 100%;
+        border-bottom: 2px solid whitesmoke;
+        z-index: 1;
+
+        
+    }
+    li {
+        padding: 5px 18px;
+        font-size: 25px;
+        color: #5E9A8C;
+    
+    }
+    .me {
+        display: block;
+    }
+    .navigation li a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+        transition: color 1s;
+    
+    }
+    .navigation li a:hover {
+        color: #5E9A8C;
+        cursor: pointer;
+    }
+    .navigation li a:active {
+        color: #5E9A8C;
+    
+    }
+
+    /* Header  */
+    header {
+        margin-top: 100px;
+        padding: 5px;
+    }
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        
+    }
+    .hero-holder {
+        margin-left: 40px;
+        margin-top: 1px;
+    }
+    
+    .name h1 {
+        margin: 0;
+        font-size: 50px;
+      
+    
+    
+    }
+    
+    .description  {
+        margin-left: 5px;;
+    
+    
+    }
+    .description p {
+        color: black;
+    }
+    
+    .hero-cover {
+        width: 100%;
+        height: 100%;
+      
+       
+       
+    
+    }
+    .portfolio {
+        margin-left: -80px;
+     
+    }
+    .portfolio a {
+        background-color: #5E9A8C;
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 15px;
+        width: 100px;
+        text-align: center;
+        border-radius: 30px;
+        font-size: 20px;
+        display: inline-block;
+           
+    
+    
+       
+        
+       
+    }
+    .portfolio a:hover {
+        background-color: black;
+    }
+
+    /* Section Services */
+.services {
+    text-align: center;
+     
+ }
+ .row {
+     display: flex;
+     justify-content: space-between;
+ }
+ .services-heading {
+     margin-top: 70px;
+     margin-bottom: 100px;
+     font-size: 35px;
+ 
+ }
+ .card {
+     display: flex;
+     padding: 10px 20px;
+     border: 3px solid white;
+     height: 100%;
+     box-shadow: 10px 10px 10px 10px whitesmoke;
+     transition: all 2s;
+     margin: 5px;
+ 
+ 
+     
+     
+ 
+ }
+ .left {
+     background-color: #5E9A8C;
+     border-radius: 50%;
+     padding: 8px;
+     position: absolute;
+    
+    
+ 
+ }
+ .left i {
+     color:white;
+     position: relative;
+     font-size: 10px;
+     
+ 
+     
+ }
+ .right h2 {
+     margin: 0;
+     
+ }
+ .right {
+   padding: 5px 0;   
+   width: 80%; 
+   margin-right: 0;
+   margin-left: 15px;
+ 
+ }
+ .card:hover {
+     border: 3px solid whitesmoke;
+     box-shadow: 10px 10px 10px  rgb(124, 122, 119);
+    
+ 
+ }
+ /* About Section */
+.about {
+    width: 100%;
+    margin-top: 80px;
+
+}
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+
+
+
+    
+}
+.about-heading {
+    
+    margin-left: 5px;
+    flex-basis: 30%;
+}
+.about-heading h1 {
+    font-size: 40px;
+}
+.about-img {
+   flex-basis: 20%;
+   
+
+}
+.pic-me {
+    width: 100%;
+    height: 100%;
+
+    
+    
+    
+   
+}
+
+.about-heading h1::after {
+    content:"";
+    display: block;
+    height: 0.5em;
+    margin-top: 5px;
+    width: 50px;
+    margin-right: -100%;
+    margin-left: 5px;
+    border-top: 2px solid black;
+  
+
+}
+.about-paragraph {
+    margin-left: 50px;
+    margin-top: 0;
+    margin-right: 5px;
+    flex-basis: 30%;
+}
+.about-btn {
+    border-radius: 30px;
+    background-color: #5E9A8C;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.about-btn:hover {
+    background-color: black;
+}
+
+/* Porfolio */
+.port {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    width: 30%;
+    margin: 5px;
+
+}
+.my-portfolio {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    
+  
+}
+
+.portfolio-image {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 3px solid whitesmoke;
+    transition: all 5s;
+    width: 100%;
+
+}
+.portfolio-image:hover {
+    transform: scale(0.8);
+}
+
+/* Contact */
+.cont {
+    margin: 50px 50px;
+
+}
+.contact-form {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0;
+    
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    justify-content: space-around;
+
+}
+.contact input, textarea {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.send-message {
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    background-color: #5E9A8C;
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+.send-message:hover {
+    background-color: black;
+
+}
+
+/* footer */
+footer {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+.footer-col h3,  .footer-col p{
+    text-align: center;
+
+}
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-col a {
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+}
+.footer-col a:hover {
+    color: #5E9A8C;
+
+}
+footer p {
+    text-align: center;
+    color: grey;
+    font-size: 16px;
+}
+
+
+
+
+}
+@media (min-width: 640px) {
+    .b-portfolio {
+        margin-left: -10px;
+     
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
